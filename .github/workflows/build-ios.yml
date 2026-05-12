@@ -37,7 +37,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_LICENSE:  ${{ secrets.UNITY_LICENSE }}
         with:
-          unityVersion:     2018.3.9f1
+          unityVersion:     2020.3.38f1
           targetPlatform:   iOS
           buildName:        BaldisBasicsClassic
           buildsPath:       builds
